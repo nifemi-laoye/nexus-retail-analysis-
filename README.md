@@ -75,7 +75,7 @@ HAVING SUM(s.inventoryquantity) > (
 ORDER BY total_unsold DESC;
 ```
 
-**Insight:** Product #9806 (Electronics) is the single worst offender at 210 unsold units, and Electronics fills 3 of the top 4 slow-moving spots — pointing to a category-level problem, not just one bad SKU.
+**Insight:** Product #9806 (Electronics) is the single worst offender at 210 unsold units, and Electronics holds the two most overstocked products (#9806 and #3381).
 
 ## Key Findings
 
