@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-**Nexus Retail Group** is a consumer electronics retailer facing volatile sales trends and inventory margin erosion during periods of high inflation — a problem affecting supply chain operations, warehouse holding costs, and overall profitability. Left unaddressed, it risks costly overstocking of premium tech items and missed revenue during economic downturns.
+**Nexus Retail Group** is a consumer electronics retailer facing volatile sales trends and inventory margin erosion during periods of high inflation, a problem affecting supply chain operations, warehouse holding costs, and overall profitability. Left unaddressed, it risks costly overstocking of premium tech items and missed revenue during economic downturns.
 
 This project uses **PostgreSQL** to analyze five years (2018–2022) of sales, inventory, and macroeconomic data to answer 9 business questions across four themes:
 
@@ -83,7 +83,7 @@ ORDER BY total_unsold DESC;
 - **Promotions deliver almost no measurable lift** — items with a promotion average 52 units sold versus 51 without, a difference too small to justify the spend.
 - **October and February are consistently the worst months for deadstock**, averaging ~55.7 unsold units across all five years — including two of the largest single-month cash lock-ups on record: October 2021 ($115,956) and October 2018 ($113,645).
 - **Electronics is the single biggest inventory problem** across every cost and space metric: 20,434 units of warehouse space, $2,224,964 in tied-up cash, and the highest average unit cost ($107.67) of any category.
-- **SmartPhones is the strongest organic performer**, selling 10,912 units with zero promotional support — outperforming every other category with no marketing spend behind it.
+- **SmartPhones is the strongest organic performer**, selling 10,912 units with zero promotional support, outperforming every other category with no marketing spend behind it.
 
 ## Recommendations
 
