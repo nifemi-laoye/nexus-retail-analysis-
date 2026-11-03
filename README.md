@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-**Nexus Retail Group** is a consumer electronics retailer facing volatile sales trends and inventory margin erosion during periods of high inflation, a problem affecting supply chain operations, warehouse holding costs, and overall profitability. Left unaddressed, it risks costly overstocking of premium tech items and missed revenue during economic downturns.
+**Nexus Retail Group** is a consumer electronics retailer facing volatile sales trends and inventory margin erosion during periods of high inflation — a problem affecting supply chain operations, warehouse holding costs, and overall profitability. Left unaddressed, it risks costly overstocking of premium tech items and missed revenue during economic downturns.
 
 This project uses **PostgreSQL** to analyze five years (2018–2022) of sales, inventory, and macroeconomic data to answer 9 business questions across four themes:
 
@@ -75,15 +75,15 @@ HAVING SUM(s.inventoryquantity) > (
 ORDER BY total_unsold DESC;
 ```
 
-**Insight:** Product #9806 (Electronics) is the single worst offender at 210 unsold units, and Electronics holds the two most overstocked products (#9806 and #3381).
+**Insight:** Product #9806 (Electronics) is the single worst offender at 210 unsold units, followed by another Electronics product, #3381, at 201. Laptops and Home_Appliances products come next, so overstock isn't limited to one category.
 
 ## Key Findings
 
 - **Laptops are the most inflation-sensitive category**, losing 15.6% of sales volume (10,316 → 8,707 units) during high-inflation months, while Electronics counterintuitively gains 18.3% (9,359 → 11,075 units).
 - **Promotions deliver almost no measurable lift** — items with a promotion average 52 units sold versus 51 without, a difference too small to justify the spend.
-- **October and February are consistently the worst months for deadstock**, averaging ~55.7 unsold units across all five years, including two of the largest single-month cash lock-ups on record: October 2021 ($115,956) and October 2018 ($113,645).
+- **October and February are consistently the worst months for deadstock**, averaging ~55.7 unsold units across all five years — including two of the largest single-month cash lock-ups on record: October 2021 ($115,956) and October 2018 ($113,645).
 - **Electronics is the single biggest inventory problem** across every cost and space metric: 20,434 units of warehouse space, $2,224,964 in tied-up cash, and the highest average unit cost ($107.67) of any category.
-- **SmartPhones is the strongest organic performer**, selling 10,912 units with zero promotional support, outperforming every other category with no marketing spend behind it.
+- **SmartPhones is the strongest organic performer**, selling 10,912 units with zero promotional support — outperforming every other category with no marketing spend behind it.
 
 ## Recommendations
 
@@ -93,4 +93,4 @@ ORDER BY total_unsold DESC;
 4. **Plan clearance activity ahead of October and February every year** — these months are a predictable, recurring pattern, not a one-off risk.
 5. **Treat Electronics as the top financial priority** — it is simultaneously the biggest space user, the biggest cash drain, and the most expensive category per unit, making it the highest-leverage area for cost recovery.
 
-*Built with PostgreSQL as part of a data analytics capstone project with 10Alytics* 
+*Built with PostgreSQL as part of a data analytics capstone project.*
